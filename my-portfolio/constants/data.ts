@@ -1,0 +1,76 @@
+export const portfolioData = {
+  name: 'owkahin',
+  title: 'Full Stack Developer | Mobile App Builder',
+  tagline: 'Turning ideas into digital reality',
+  bio: 'Passionate software developer with 5+ years of experience building scalable web and mobile applications. I specialize in creating elegant solutions to complex problems, with a focus on user experience and clean code architecture.',
+  
+  skills: {
+    frontend: ['React', 'React Native', 'TypeScript', 'Next.js', 'Tailwind CSS', 'HTML/CSS'],
+    backend: ['Node.js', 'Express', 'PostgreSQL', 'MongoDB', 'GraphQL', 'REST APIs'],
+    tools: ['Git', 'Docker', 'AWS', 'Firebase', 'Figma', 'VS Code'],
+  },
+  
+  projects: [
+    {
+      id: '1',
+      title: 'E-Commerce Platform',
+      description: 'Full-stack e-commerce solution with real-time inventory management and payment processing',
+      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80',
+      tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
+      github: 'https://github.com',
+      demo: 'https://demo.com',
+    },
+    {
+      id: '2',
+      title: 'Fitness Tracking App',
+      description: 'Mobile app for tracking workouts, nutrition, and progress with AI-powered recommendations',
+      image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80',
+      tech: ['React Native', 'Firebase', 'TensorFlow', 'Expo'],
+      github: 'https://github.com',
+      demo: 'https://demo.com',
+    },
+    {
+      id: '3',
+      title: 'Task Management Dashboard',
+      description: 'Collaborative project management tool with real-time updates and team analytics',
+      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80',
+      tech: ['Next.js', 'TypeScript', 'Prisma', 'WebSocket'],
+      github: 'https://github.com',
+      demo: 'https://demo.com',
+    },
+    {
+      id: '4',
+      title: 'AI Content Generator',
+      description: 'SaaS platform for generating marketing content using advanced AI models',
+      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80',
+      tech: ['React', 'OpenAI', 'MongoDB', 'Express'],
+      github: 'https://github.com',
+      demo: 'https://demo.com',
+    },
+    {
+      id: '5',
+      title: 'Real Estate Marketplace',
+      description: 'Property listing platform with advanced search filters and virtual tours',
+      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80',
+      tech: ['Next.js', 'GraphQL', 'PostgreSQL', 'AWS'],
+      github: 'https://github.com',
+      demo: 'https://demo.com',
+    },
+    {
+      id: '6',
+      title: 'Social Media Analytics',
+      description: 'Analytics dashboard for tracking social media performance across multiple platforms',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
+      tech: ['React', 'D3.js', 'Node.js', 'Redis'],
+      github: 'https://github.com',
+      demo: 'https://demo.com',
+    },
+  ],
+  
+  social: {
+    github: 'https://github.com/owkahin',
+    linkedin: 'https://linkedin.com',
+    twitter: 'https://twitter.com',
+    email: 'owkahin@example.com',
+  },
+};

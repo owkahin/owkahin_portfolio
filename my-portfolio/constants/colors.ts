@@ -1,0 +1,20 @@
+export default {
+  dark: {
+    background: '#0a0a0f',
+    surface: '#1a1a24',
+    surfaceLight: '#252532',
+    text: '#ffffff',
+    textSecondary: '#a0a0b0',
+    textMuted: '#6b6b7b',
+    primary: '#3b82f6',
+    primaryDark: '#2563eb',
+    secondary: '#8b5cf6',
+    accent: '#06b6d4',
+    border: '#2a2a3a',
+    borderLight: '#3a3a4a',
+    success: '#10b981',
+    error: '#ef4444',
+    gradientStart: '#3b82f6',
+    gradientEnd: '#8b5cf6',
+  },
+};
